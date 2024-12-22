@@ -1,0 +1,48 @@
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Django specific
+*.log
+*.pot
+*.py[cod]
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+
+# Environment files
+.env
+*.env
+
+# Django migrations (optional: you may want to keep migrations under version control)
+# migrations/
+
+# VSCode settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Coverage reports
+.coverage
+*.cover
+*.hypothesis/
+.tox/
+.nox/
+*.coverage.*
+*.hypothesis/
+.coverage/
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+
+# virtualenv folder
+venv/
+ENV/
+env/
+.venv/
